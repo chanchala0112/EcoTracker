@@ -89,3 +89,54 @@ footer {
   padding: 12px;
   margin-top: 40px;
 }
+
+#aqi {
+  transition: color 0.3s ease;
+}
+
+#water {
+  transition: color 0.3s ease;
+}
+
+#noise {
+  transition: color 0.3s ease;
+}
+
+/* Highlight cards when hovered (optional enhancement) */
+#pollution-data div:hover {
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom dropdown styling (if Tailwind isn't enough) */
+select {
+  cursor: pointer;
+}
+
+/* Footer padding adjustment for smaller screens */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Optional – Add smooth animation to section titles */
+h2 {
+  transition: color 0.3s;
+}
+
+h2:hover {
+  color: #065f46; /* darker green on hover */
+}
+.trackbtn {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.trackbtn a {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
