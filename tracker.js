@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Replace with your OpenWeatherMap API key
-  const API_KEY = "YOUR_API_KEY";
+  const API_KEY = "http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}";
 
   function loadData() {
     const city = citySelect.value;
