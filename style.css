@@ -1,0 +1,91 @@
+/* General Page Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0fdf4; /* Light green background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #15803d; /* Green */
+  color: white;
+  padding: 16px 0;
+}
+
+header h1 {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Headings */
+section h2,
+section h3 {
+  color: #15803d;
+}
+
+/* Form Styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input[type="text"],
+form select,
+form textarea,
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  background-color: #15803d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #166534;
+}
+
+/* Report Cards */
+.report-card {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #15803d;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 40px;
+}
